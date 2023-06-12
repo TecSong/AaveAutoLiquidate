@@ -1,19 +1,16 @@
 {
-  "name": "aaveautoliquidate",
+  "name": "AaveAutoLiquidate",
+  "type": "module",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/TecSong/AaveAutoLiquidate.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/TecSong/AaveAutoLiquidate/issues"
-  },
-  "homepage": "https://github.com/TecSong/AaveAutoLiquidate#readme"
+  "repository": "git@github.com:TecSong/AaveAutoLiquidate.git",
+  "author": "yuchuan.song <yuchuan.song@debank.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@aave/contract-helpers": "^1.17.6",
+    "@aave/math-utils": "^1.17.6",
+    "@bgd-labs/aave-address-book": "^1.24.0",
+    "dayjs": "^1.11.8",
+    "ethers": "^5.7.2"
+  }
 }

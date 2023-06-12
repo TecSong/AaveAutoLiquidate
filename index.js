@@ -91,7 +91,7 @@ const userSummary = formatUserSummary({
     userEmodeCategoryId: userReserves.userEmodeCategoryId,
   });
 
-// console.log('userSummary', userSummary.user)
+// console.log('userSummary', userSummary)
   
 
 //auto liquidate
